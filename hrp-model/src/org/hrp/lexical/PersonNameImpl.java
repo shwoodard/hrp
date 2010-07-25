@@ -32,7 +32,6 @@ public class PersonNameImpl extends NameImpl implements PersonName {
 	public void setLastName(String lastName) {
 		setName(null);
 		_lastName = lastName;
-
 	}
 
 	@Override
