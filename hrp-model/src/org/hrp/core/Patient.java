@@ -1,5 +1,7 @@
 package org.hrp.core;
 
-public interface Patient extends Resource {
+import java.util.List;
 
+public interface Patient extends Resource {
+	public List<Provider> getProviders();
 }

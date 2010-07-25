@@ -1,6 +1,6 @@
 package org.hrp.lexical;
 
-public class NameImpl implements Name {
+public abstract class NameImpl implements Name {
 	private String _name;
 
 	@Override
